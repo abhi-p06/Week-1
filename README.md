@@ -1,19 +1,40 @@
-# Waste Classification – Week 1: Machine Learning Foundations
+Waste Classification using CNN
+Overview
 
-This repository contains my work for Week 1 of the Shell Internship under the Green Skills theme.  
-The focus of this week was to understand the fundamentals of Machine Learning and practice using key Python libraries before starting the main Waste Classification project.
+This is my Week 1 project for the AI Internship. I'm new to machine learning and wanted to understand how image classification works using Convolutional Neural Networks (CNNs). Since real waste datasets are large, I used TensorFlow’s small built-in flower dataset to practice CNN basics and project structure.
 
+Problem Statement
 
-## Week 1 Objectives
-- Understand basic Machine Learning concepts and workflows  
-- Learn to use NumPy, Pandas, and Matplotlib for data handling and visualization  
-- Explore data preprocessing techniques  
-- Build and train a simple CNN model using the MNIST dataset  
+To train a simple CNN model that classifies images into different categories. This helped me learn how CNNs process image data and recognize visual patterns.
 
+What I Learned
 
-## How to Run
+Basics of CNN layers and architecture
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/<your-username>/waste-classification-week1.git
-   cd waste-classification-week1
+Loading and preprocessing image data
+
+Training and evaluating a model
+
+Visualizing accuracy and loss
+
+Dataset
+
+Used TensorFlow’s built-in flower_photos dataset. It’s small, automatically downloads, and works well for quick experiments.
+
+Tools and Libraries
+
+Python
+
+TensorFlow / Keras
+
+NumPy
+
+Matplotlib
+
+Outcome
+
+The model classifies flower images into 5 categories with around 70–80% accuracy. This project helped me learn CNN fundamentals before moving to real waste data.
+
+Week 1 Goal
+
+Learn CNN basics, train a simple image classification model, and understand the workflow of a machine learning project.
